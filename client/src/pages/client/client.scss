@@ -1,0 +1,54 @@
+.client {
+  position: relative;
+  left: 200px;
+  width: calc(100vw - 220px);
+
+  padding: 20px;
+
+  .titleContainer {
+    margin-bottom: 20px;
+
+    .title {
+      color: gray;
+      font-size: 24px;
+    }
+  }
+
+  .productContainer {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    .form {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      .group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 340px;
+        input {
+          padding: 15px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+        }
+
+        .add {
+          padding: 10px 0;
+          background-color: darkblue;
+          color: #fff;
+          font-weight: 500;
+          font-size: 18px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.sidebar {
+  width: 200px;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  box-shadow: #64646f33 0px 0px 7px 3px;
+  padding-top: 10px;
+  font-weight: 500;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    .list {
+      padding-left: 5px;
+      li {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 7px;
+        cursor: pointer;
+        padding: 5px;
+        color: #555;
+        width: 90%;
+        border-radius: 10px;
+        font-size: 17px;
+
+        .icon {
+          font-size: 22px !important;
+          color: blue;
+        }
+        &:hover,
+        &.active {
+          background-color: rgb(221, 209, 209);
+        }
+      }
+    }
+  }
+}

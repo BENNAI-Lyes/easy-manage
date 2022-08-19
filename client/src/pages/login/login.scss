@@ -1,0 +1,54 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .wrapper {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    width: 400px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+    .header {
+      display: flex;
+      align-items: center;
+      .logo {
+        width: 160px;
+      }
+      .title {
+        font-size: 34px;
+      }
+    }
+
+    .form {
+      .formGroup {
+        margin: 15px 0;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 10px;
+
+        .label {
+          font-size: 24px;
+        }
+        .input {
+          padding: 10px;
+          border-radius: 5px;
+          width: 300px;
+          border: 1px solid #ccc;
+        }
+      }
+    }
+  }
+}

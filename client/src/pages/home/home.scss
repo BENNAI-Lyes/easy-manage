@@ -1,0 +1,16 @@
+.home {
+  position: relative;
+  left: 200px;
+  width: calc(100vw - 220px);
+
+  .wrapper {
+    padding: 20px;
+
+    .stat {
+      margin: 30px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+}

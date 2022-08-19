@@ -1,0 +1,52 @@
+.invoices {
+  position: relative;
+  left: 200px;
+  width: calc(100vw - 220px);
+
+  .wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+
+      .title {
+        font-size: 24px;
+        font-weight: 500;
+        color: gray;
+      }
+      .headerButton {
+        display: flex;
+        gap: 20px;
+      }
+    }
+
+    .table {
+      .userCell {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+          width: 35px;
+          height: 35px;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+      }
+      .actionCell {
+        .editIcon {
+          color: green;
+          cursor: pointer;
+          margin-right: 10px;
+        }
+        .deleteIcon {
+          color: red;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

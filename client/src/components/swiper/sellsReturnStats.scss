@@ -1,0 +1,74 @@
+.sellsReturnStats {
+  position: relative;
+  width: calc(100vw - 250px);
+  height: auto;
+
+  .mySwiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+}
+
+.tabelStat {
+  .date {
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+    width: max-content;
+
+    @media print {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+  }
+
+  .table {
+    text-transform: capitalize;
+    padding: 20px 0;
+    padding-left: 100px;
+    p {
+      display: inline-block;
+      width: 150px;
+      border-bottom: 1px solid #ddd;
+      padding: 2px 0;
+
+      &.first {
+        width: 450px;
+      }
+    }
+
+    .table-head {
+      border-bottom: 1px solid #ccc;
+      width: max-content;
+      margin-bottom: 5px;
+    }
+
+    @media print {
+      padding-left: 20px;
+    }
+  }
+
+  .totalNet {
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: max-content;
+
+    .key {
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .value {
+      color: green;
+    }
+  }
+
+  .buttonPrint {
+    float: right;
+
+    @media print {
+      display: none;
+    }
+  }
+}

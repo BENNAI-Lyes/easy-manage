@@ -1,0 +1,49 @@
+.widgets {
+  display: flex;
+  justify-content: space-between;
+
+  .widget {
+    width: 280px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+
+    .title {
+      font-size: 20px;
+      font-weight: 500;
+      color: #333;
+    }
+    .center {
+      display: flex;
+      align-items: center;
+      .mony {
+        font-weight: 500;
+        font-size: 24px;
+        margin-right: 30px;
+      }
+      .arrow {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        .icon {
+          font-size: 16px;
+          color: red;
+          &.green {
+            color: green;
+          }
+        }
+      }
+    }
+    .compare {
+      color: #ccc;
+      font-size: 14px;
+    }
+  }
+}

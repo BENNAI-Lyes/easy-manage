@@ -1,0 +1,13 @@
+.totals {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px;
+
+  .total {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+.button {
+  border: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 15px;
+
+  &.approved {
+    color: rgb(31, 155, 31);
+    background-color: rgb(196, 240, 196);
+  }
+  &.pending {
+    color: rgb(194, 194, 63);
+    background-color: rgb(240, 240, 214);
+  }
+  &.declined {
+    color: rgb(182, 47, 47);
+    background-color: rgb(250, 214, 214);
+  }
+}
