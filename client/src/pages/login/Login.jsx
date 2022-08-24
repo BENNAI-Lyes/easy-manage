@@ -6,8 +6,8 @@ import { AuthContext } from "../../context/authContext/authContext";
 import { login } from "../../context/authContext/authContextApiCalls";
 
 const Login = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("lyesdev1@gmail.com");
+  const [password, setPassword] = useState("testing123");
 
   const { dispatch, isFetching } = useContext(AuthContext);
 
